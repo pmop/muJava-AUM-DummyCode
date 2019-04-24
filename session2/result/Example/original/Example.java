@@ -52,8 +52,8 @@ public class Example
 
     public  void erule21NDummy1()
     {
-        java.lang.String v2 = new java.lang.String( "Dummy" );
-        java.lang.StringBuilder v1 = new java.lang.StringBuilder( v2 + 2 );
+        java.lang.String imAstring = new java.lang.String( "Dummy" );
+        java.lang.StringBuilder v1 = new java.lang.StringBuilder( imAstring + 2 );
     }
 
 }
