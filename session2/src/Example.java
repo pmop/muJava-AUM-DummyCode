@@ -1,5 +1,7 @@
 import java.util.*;
 
+//Dummy = should be touched by the rule
+//NDummy = should not be touched by the rule
 public class Example {
 	public Example () {
 	}
@@ -29,8 +31,8 @@ public class Example {
 		StringBuilder v1 = new StringBuilder(v2.size() % 2);
 	}
 	public void erule21NDummy1() {
-		String v2 = new String("Dummy");
+		String imAstring = new String("Dummy");
 		//implicit conversion of 2 to string for + operator
-		StringBuilder v1 = new StringBuilder(v2 + 2);
+		StringBuilder v1 = new StringBuilder(imAstring + 2);
 	}
 }
